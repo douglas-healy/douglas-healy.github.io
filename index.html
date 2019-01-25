@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Credentials to sign in with Google -->
+        <meta name="google-signin-client_id" content="503136452478-2j80m43eao11grpjc7qrjubu827aqe73.apps.googleusercontent.com">
+
+        <title>Portfolio</title>
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Latest fontawesone stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+
+        <!-- Bootstrap CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+
+        <!-- My stylesheet -->
+        <link rel="stylesheet" href="css/main.css" type="text/css" />
+
+        <!-- My script -->
+        <script src="js/main.js"></script>
+
+        <!-- Load Google Platform Library for Google sign in -->
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header id="header">
+                <nav id="navbar">
+                    <span id="logo">Logo Placeholder</span>
+                    <ul id="main-menu">
+                        <a href="" class="menu-item"><li>Services</li></a>
+                        <a href="" class="menu-item"><li>About</li></a>
+                        <a href="" class="menu-item"><li>Portfolio</li></a>
+                        <a href="http://douglashealy.ml" target="_blank" class="menu-item"><li>C.V.</li></a>
+                        <a href="" class="menu-item"><li>Contact</li></a>
+                    </ul>
+                    <i id="social-menu" class="icon nav-icon bars-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </i>
+                </nav>
+
+                <div id="banner" class="banner">
+                    <h1 class="title">
+                        <span class="first-name">Douglas</span>
+                        <span class="last-name">Healy</span>
+                    </h1>
+                    <p class="subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, animi.
+                    </p>
+                </div>
+            </header>
+            <div id="services">
+                <div class="card">
+                    <i></i>
+                    <h1>Reliable</h1>
+                </div>
+                <div class="card">
+                    <i></i>
+                    <h1>Efficient</h1>
+                </div>
+                <div class="card">
+                    <i></i>
+                    <h1>Fast</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="g-signin2" data-onsuccess="onSignIn" style="color:#000;"></div>
+        <div class="data">
+
+        </div>
+
+        <footer id="footer">
+            <span id="copyright">&copy; 2018 Douglas Healy | All Rights Reserved</span>
+            <ul id="social-menu">
+                <li class="menu-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li class="menu-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li class="menu-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li class="menu-item"><a href="#"><i class="fab fa-google-plus"></i></a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
